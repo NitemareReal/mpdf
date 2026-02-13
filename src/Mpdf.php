@@ -2,12 +2,12 @@
 
 namespace Mpdf;
 // JMFA para Joomla:
-\JLoader::registerNamespace('setasign\\Fpdi', JPATH_LIBRARIES.'/Mpdf8/setasign/fpdi/src', false, false, 'psr4');    // JMFA: Complemento NECESARIO para la generación de PDF
+\JLoader::registerNamespace('setasign\\Fpdi', JPATH_LIBRARIES.'/Mpdf8/setasign/fpdi', false, false, 'psr4');    // JMFA: Complemento NECESARIO para la generación de PDF
 \JLoader::registerNamespace('DeepCopy', JPATH_LIBRARIES.'/Mpdf8/DeepCopy', false, false, 'psr4');                   // JMFA: Complemento NECESARIO para la generación de PDF (tablas de contenido)
-\JLoader::registerNamespace('Mpdf\\PsrLogAwareTrait', JPATH_LIBRARIES.'/Mpdf8/psr-log-aware-trait/src', false, false, 'psr4');
-\JLoader::registerNamespace('Psr\\Http\\Message', JPATH_LIBRARIES.'/Mpdf8/php-fig/http-message/src', false, false, 'psr4');
-\JLoader::registerNamespace('Psr\\Log', JPATH_LIBRARIES.'/Mpdf8/php-fig/log/src', false, false, 'psr4');
-\JLoader::registerNamespace('Mpdf\\PsrHttpMessageShim', JPATH_LIBRARIES.'/Mpdf8/psr-http-message-shim/src', false, false, 'psr4');
+\JLoader::registerNamespace('Mpdf\\PsrLogAwareTrait', JPATH_LIBRARIES.'/Mpdf8/psr-log-aware-trait', false, false, 'psr4');
+\JLoader::registerNamespace('Psr\\Http\\Message', JPATH_LIBRARIES.'/Mpdf8/php-fig/http-message', false, false, 'psr4');
+\JLoader::registerNamespace('Psr\\Log', JPATH_LIBRARIES.'/Mpdf8/php-fig/log', false, false, 'psr4');
+\JLoader::registerNamespace('Mpdf\\PsrHttpMessageShim', JPATH_LIBRARIES.'/Mpdf8/psr-http-message-shim', false, false, 'psr4');
 // Fin JMFA
 
 use Mpdf\Config\ConfigVariables;
